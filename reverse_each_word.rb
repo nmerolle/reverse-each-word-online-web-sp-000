@@ -3,4 +3,6 @@ def reverse_each_word(sentence)
   arr = reverse_each_word.split("")
     arr.each do |word|
     new_arr << word.reverse
-    
+  end
+  return new_arr.join
+end
